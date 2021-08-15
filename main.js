@@ -19,6 +19,7 @@ function selectItem(e){
 // Remove borders from all tabs
 function removeBorder(){
   tabItems.forEach(item => item.classList.remove('tab-border'));
+  /* Here item is passed as parameter and the arrow function is not assigned to the item Same for every forEach loop */
 }
 
 //remove show class from all tab contents
